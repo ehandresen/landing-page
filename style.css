@@ -5,7 +5,7 @@
 }
 
 body {
-    width: auto;
+    
 }
 
 a {
@@ -21,10 +21,8 @@ ul {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1F2937;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 nav, .h3 {
@@ -34,8 +32,7 @@ nav, .h3 {
 
 .container-one {
     display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-evenly;
     background-color: #1f2937;
     padding: 50px 10px 100px 10px;
 }
@@ -129,6 +126,72 @@ nav, .h3 {
     margin-right: 15%;
 }
 
+.container-three {
+    display: flex;
+    background-color: #f8e8f6;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+figure {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 20px 50px;
+    margin: 60px 250px;
+    border-radius: 5px;
+}
+
+.container-four-left {
+    color: #f9faf8;
+    padding-right: 50px;
+}
+
+.strong-p {
+    font-weight: bold;
+}
+
+.weak-p {
+    font-size: 8px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
+.container-four-right {
+    display: flex;
+    align-items: center;
+}
+
+.container-four-right button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #f9faf8;
+}
+
+
 footer {
     display: flex;
     justify-content: center;   
@@ -136,4 +199,5 @@ footer {
     color: #e5e7eb;
     padding: 20px;
     font-size: 12px;
+    margin-top: 8%;
 }
